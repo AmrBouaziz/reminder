@@ -1,0 +1,19 @@
+{
+  "name": "reminder",
+  "version": "0.0.1",
+  "description": "an app that will remind me to tweet when I have internet every hour",
+  "main": "reminder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reminder",
+    "twitter"
+  ],
+  "author": "amrou",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "node-notifier": "~4.5.0",
+    "is-online": "~5.1.1"
+  }
+}
